@@ -1,0 +1,23 @@
+{
+  "name": "pbi_dugg_coffee",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AriqFikriTamamy/pbi_dugg_coffee#readme",
+  "bugs": {
+    "url": "https://github.com/AriqFikriTamamy/pbi_dugg_coffee/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AriqFikriTamamy/pbi_dugg_coffee.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lucide": "^0.511.0"
+  }
+}
