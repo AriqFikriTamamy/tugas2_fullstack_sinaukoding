@@ -1,0 +1,304 @@
+@import url(style.css);
+
+main .container .philosophy{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 57px;
+    margin-right: 35px;
+    margin-bottom: 42px;
+    margin-left: 35px;
+    gap: 50px;
+}
+
+.container .philosophy .philosophy-section{
+    margin-right: 0;
+    position: relative;
+}
+
+.philosophy .philosophy-section .philosophy-title{
+    text-align: center;
+    font-family:"Poller One", sans-serif;
+}
+
+.philosophy-section .philosophy-title h1{
+    font-size: 64px;
+    color: #184265;
+}
+
+.philosophy-section .philosophy-title span{
+    font-size: 64px;
+    color: #3A9DF1;
+}
+
+.container .philosophy .philosophy-subtitle{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.philosophy-section .philosophy-subtitle h2{
+    font-weight: 700;
+    font-size: 26px;
+    color: #184265;
+}
+
+.philosophy .philosophy-section .philosophy-description{
+    font-family: 'Cabin', sans-serif;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.philosophy-section .philosophy-description p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.philosophy .philosophy-section .philosophy-image{
+    margin-top: 28px;
+    
+}
+
+.philosophy-section .philosophy-image img{
+    width: 100%;
+    height: 242px;
+}
+
+.philosophy .philosophy-section .philosophy-card-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    column-gap: 47px;
+    top: 80%;
+    left: 25%;
+}
+
+.philosophy .philosophy-section .philosophy-card{
+    width: 170px;
+    height: 175px;
+    background-color: rgba(69, 66, 66, 0.8);
+    border-radius: 15px;
+}
+
+.philosophy-section .philosophy-card .philosophy-card-icon{
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.philosophy-card .philosophy-card-icon img{
+    width: 80px;
+    height: 80px;
+}   
+
+.philosophy-section .philosophy-card .philosophy-card-text{
+    font-family:"Poller One", sans-serif;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #ffff;
+}
+
+.philosophy-card .philosophy-card-text p{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+main .container .facility-and-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 96px; */
+    margin-top: 52px;
+}
+
+.container .facility-and-location .facility-about-section{
+    margin-top: 19px;
+    margin-left: 37px;
+    width: 635px;
+}
+
+.facility-and-location .facility-about-section .facility-about{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.facility-about-section .facility-about .facility-about-title{
+    font-family:"Poller One", sans-serif;
+    color: #184265;
+}
+
+.facility-about .facility-about-title h1{
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.facility-about .facility-about-title span{
+    font-weight: 400;
+    font-size: 64px;
+    color: #3A9DF1;
+}
+
+.facility-about-section .facility-about .facility-about-subtitle{
+    color: #184265;
+}
+
+.facility-about .facility-about-subtitle h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.facility-about-section .facility-about .facility-about-description{
+    color: #184265;
+    text-align: justify;
+    font-family: 'Cabin', sans-serif;
+}
+
+.facility-about .facility-about-description p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.facility-about .facility-about-description b{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.facility-about-section .facility-about .facility-about-button{
+    margin-top: 24px;
+}
+
+.facility-about .facility-about-button button{
+    width: 406px;
+    height: 64px;
+    border-radius: 35px;
+    border-style: none;
+    background-color: #3A9DF1;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.container .facility-and-location .location-section{
+    margin-top: 19px;
+    margin-right: 37px;
+    width: 635px;
+}
+
+.facility-and-location .location-section .location{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.location-section .location .location-title{
+    font-family:"Poller One", sans-serif;
+    color: #3A9DF1;
+}
+
+.location .location-title h1{
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.location .location-title span{
+    font-weight: 400;
+    font-size: 64px;
+    color: #184265;
+}
+
+.location-section .location .location-subtitle{
+    color: #184265;
+}
+
+.location .location-subtitle h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.location-section .location .location-description{
+    font-family: 'Cabin', sans-serif;
+    text-align: justify;
+    color: #184265;
+}
+
+.location .location-description p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.location .location-description b{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.location-section .location .location-button{
+    margin-top: 24px;
+}
+
+.location .location-button button{
+    width: 406px;
+    height: 64px;
+    border-radius: 35px;
+    border-style: none;
+    background-color: #ffff;
+    color: #3A9DF1;
+    font-weight: 700;
+    font-size: 26px;
+    border: 1px solid #3A9DF1;
+}
+
+main .container .description{
+    width: 100%;
+    height: 150px;
+    background-color: #EBF5FE;
+    margin-top: 76px;
+    margin-bottom: 55px;
+}
+
+.container .description .description-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.description .description-section .description-title{
+    font-family:"Poller One", sans-serif;
+    color: #184265;
+    text-align: center;
+    margin-top: 14.5px;
+}
+
+.description-section .description-title h1{
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.description-section .description-title span{
+    font-weight: 400;
+    font-size: 36px;
+    color: #3A9DF1;
+}
+
+.description .description-section .description-text{
+    font-family: 'Cabin', sans-serif;
+    color: #184265;
+    text-align: justify;
+}
+
+.description-section .description-text p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.description-section .description-text b{
+    font-weight: 700;
+    font-size: 20px;
+}

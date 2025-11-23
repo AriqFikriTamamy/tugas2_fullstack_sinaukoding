@@ -1,0 +1,78 @@
+@import url(style.css);
+
+main .container .faq-header{
+    margin-top: 15px;
+    margin-left: 32px;
+}
+
+.container .faq-header .faq-header-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+
+.faq-header .faq-header-section .faq-header-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.faq-header .faq-header-section .faq-header-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+}
+
+.faq-header .faq-header-section .faq-header-title{
+    width: 70px;
+    height: 33px;
+    background-color: #EBF5FE;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #3A9DF1;
+}
+
+.faq-header-section .faq-header-title h1{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.faq-header .faq-header-section .faq-header-subtitle{
+    font-family: 'Cabin', sans-serif;
+}
+
+.faq-header-section .faq-header-subtitle h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+main .container .faq-content{
+    margin-top: 21.5px;
+    margin-left: 32px;
+}
+
+.container .faq-content .faq-content-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 21.5px;
+}
+
+.faq-content-section .faq-content-item details{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.faq-content-item details summary{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.faq-content-item details .faq-answer{
+    font-family: 'Cabin', sans-serif;
+    margin-left: 27px;
+}
+
+details .faq-answer p{
+    font-weight: 400;
+    font-size: 20px;
+}
